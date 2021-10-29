@@ -1,5 +1,5 @@
-#FAKE-NEWS-CLASSIFIER#
-##AIM##
+# FAKE-NEWS-CLASSIFIER #
+## AIM ##
 project's aim was to create a **END TO END** fake news classifier to detect fake news.
 
 **Project Outline**
@@ -34,7 +34,9 @@ project's aim was to create a **END TO END** fake news classifier to detect fake
   **Logistic Regression gave the highest accuracy**
 
 
-https://user-images.githubusercontent.com/70663378/139425090-73fff0ea-245a-43cd-9049-3d94169c95ce.mp4
+
+https://user-images.githubusercontent.com/70663378/139425454-b835b29f-6194-493a-b54f-14e8d2edcce0.mp4
+
 
 
 

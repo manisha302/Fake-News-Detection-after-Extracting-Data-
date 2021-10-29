@@ -23,4 +23,7 @@
  6. XGBoost Classifier
 # plotted confusion matrix for all the models
 
-https://user-images.githubusercontent.com/70663378/139210962-702daf3a-e36d-48fc-93f9-5adca3d7c61e.mp4![fake-news2](https://user-images.githubusercontent.com/70663378/139214896-d6716c9d-3246-457b-a408-0d2fadfa5542.png)
+
+
+https://user-images.githubusercontent.com/70663378/139410348-0ae1c7ec-5c88-42aa-9bf9-9d9ec4c3fb12.mp4
+

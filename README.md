@@ -1,19 +1,25 @@
+**AIM**
+project aim was to create a **END TO END** fake news classifier to detect fake news.
 
+**Project Outline**
 
-
-
-# web-scraping from politifact website by using beautiful soup library
-  website link for scraping of data - [Politifact Site](https://www.politifact.com/factchecks/list/?category=fake-news)
-# text preprocessing 
- 1. tokenizing,lowercase conversion, punctuation removal,stopwords,lemmetization
- 2. removal of unnecessary labels from label column except fake and true 
-# data visualization
+# Web-Scraping
+  web scraping using **BeautifulSoup** library of python and this is the site from where i have scrapped data for the project - [Politifact Site](https://www.politifact.com/factchecks/list/?category=fake-news)
+  I have attached screenshot of frst 30 rows of my scrapped dataset 
+  ![Screenshot from 2021-10-29 16-02-04](https://user-images.githubusercontent.com/70663378/139423440-d0798315-f58b-4452-b1be-1938a2e9914d.png)
+# Text Preprocessing 
+ 1. kept only alphanumeric characters, tokenizing,lowercase conversion, punctuation removal,stopwords,lemmetization
+# Data Visualization
  1. word count distribution
  2. world cloud
  3. label count distribution
+# Feature Enginering 
+ 1. Remove labels like - Pants-fire
+ 2. merged label Mostly True as True
+ 3. Mostly False as False
 # feature selection
  1. TF-IDF vectoriser
- 2. Chi-Square test
+ 2. Chi-Square test to pick top most features to avoid dimensionality curse
 # modelling
  1. Logistic Regression with L1 and L2 penality (outperformed all the other classifier)
  2. MultiNomial Naive Bayes classifier
@@ -21,9 +27,15 @@
  4. Decision Tree Classifier
  5. Random Forest Classifier
  6. XGBoost Classifier
-# plotted confusion matrix for all the models
+# Evaluation Measures
+ 1.Plotted Confusion Matrix for all the classifier
+# Results
+  **Logistic Regression gave the highest accuracy**
 
 
 
-https://user-images.githubusercontent.com/70663378/139410348-0ae1c7ec-5c88-42aa-9bf9-9d9ec4c3fb12.mp4
+
+
+https://user-images.githubusercontent.com/70663378/139424718-73e902c2-446a-441b-869c-f95444655c36.mp4
+
 

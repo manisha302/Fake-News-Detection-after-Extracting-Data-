@@ -32,6 +32,8 @@ project's aim was to create a **END TO END** fake news classifier to detect fake
  1.Plotted Confusion Matrix for all the classifier
 ## Results
   **Logistic Regression gave the highest accuracy**
+### Deployment Server
+ i have used **Streamlit** as framework and **Heroku** service for deploying .
 
 
 
